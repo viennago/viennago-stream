@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="vienna.go (Golang) logo" src="./assets/logo.png" class="logo-image">
+    <StreamInfo />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StreamInfo from './components/StreamInfo'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    StreamInfo
   }
 }
 </script>
@@ -24,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.logo-image {
+  height: 150px;
 }
 </style>
