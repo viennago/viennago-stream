@@ -5,7 +5,7 @@
       Streaming link will be made available here shortly before meetup start:
     </p>
     <div v-if="live">
-      <a href="https://www.youtube.com/watch?v=xLnZbyeEJ-g" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
+      <a href="https://www.youtube.com/watch?v=xCYYzPQJPH8" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a>
       <br />
       <a href="https://www.twitch.tv/robchew" target="_blank" rel="noopener noreferrer">Twitch Stream</a>
     </div>
